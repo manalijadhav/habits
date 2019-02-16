@@ -1,0 +1,30 @@
+class Bottle
+{
+  String bottleColor;
+  String bottleType;
+  int waterCapacity;
+
+  void openBottle(String bottleType)
+ { 
+   System.out.println("Open");   
+  }
+    void colorOfBottle(String bottleColor)
+  {
+     System.out.println("Color of Bottle: "+bottleColor);  
+    }
+      void drinkWater(int waterCapacity)
+  {
+     
+    }
+  public static void main()
+ {
+    
+  }   
+
+
+
+
+
+
+
+}
