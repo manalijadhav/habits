@@ -1,0 +1,87 @@
+
+#LoginPage Object Factory
+E_LOGIN=//div[contains(text(),'Sign In')]:=xpath
+E_EM=loginIdText:=ID
+E_PWD=passwordText:=ID
+E_LG=loginValidate:=ID
+
+
+#SignUpPage Object Property
+#E_SIGNUP=ch_signup_icon:=ID
+#E_EM_SIGNUP=ch_signup_email:=ID
+#E_NUM=ch_signup_phone:=ID
+#E_PWD_SIGNUP=ch_signup_password:=ID
+#E_SIGNUPB=ch_signup_btn:=ID
+
+#SearchPage Object Property
+#E_FROM=hp-widget__sfrom:=ID
+#E_FR_OPTION=//*[@class='autoCompleteItem']:=XPATH
+
+#LoginPage Object Factory
+#E_LOGIN=//div[contains(text(),'Sign In')]:=xpath
+#E_EM=loginIdText:=ID
+#E_PWD=passwordText:=ID
+#E_LG=loginValidate:=ID
+
+#SignUpPage Object Property
+#E_SIGNIN=//div[contains(text(),'Sign In')]:=xpath
+#E_SIGNUP_BTN=//span[contains(text(),'SIGN UP')]:=xpath
+#E_EM_SIGNUP=emailIdSignUp:=ID
+#E_PWD_SIGNUP=passwordSignUp:=ID
+#E_NAME_SIGNUP=nameSignUp:=ID
+#E_MOB_SIGNUP=mobileNoSignUp:=ID
+#E_CREATE_ACC=signUpValidate:=ID
+
+#SearchHolidays
+E_HOLIDAYS=//span[contains(text(),'Holidays')]:=xpath
+E_DESTINATION=destination:=ID
+E_DATE_PICKER=//div[@class='calendar-icon']:=xpath
+E_DATE=//*[@data-month='3']//div[@data-date='20']:=xpath
+E_ROOMS=//span[@class='roomsDisplayString']:=xpath
+E_DONE=//div[@class='done']:=xpath
+E_SEARCH=//div[@id='search-holiday-btn']:=xpath
+E_BOOK1=//button[@class='bookCTA']:=xpath
+E_BTN=//div[@id='holidaysNextMonth']:=xpath
+E_BOOK2=//div[contains(@class,'full-calendar u_dispTable')]//div[3]//div[1]//div[1]//div[1]:=xpath
+
+
+E_FNAME=//input[@name='fName']:=xpath
+E_LNAME=//input[@name='lName']:=xpath
+E_EMAIL=//input[@name='email']:=xpath
+E_MOBILE=//input[@id='enqMobile']:=xpath
+E_DEPARTURE_DATE=//div[@class='calendar-icon']:=xpath
+E_DDATE=//*[@data-month='3']//div[@data-date='30']:=xpath
+E_PROCEED_BTN=//span[@class='submitForm send']:=xpath
+E_SEND=//span[@class='submitOtpForm send']:=xpath
+
+E_ABook1=//*[@id="holidaysPriceCalendar"]/div/div[2]/div[5]/div[4]/div/div:=XPATH
+
+
+#Room1 Object Property  
+E_Title1=//select[@name='adult1Room1Title']:=XPATH
+E_Title=//select[@name='adult1Room1Title']//option[@value='Mr'][contains(text(),'Mr')]:=XPATH
+E_FirstAdultName=//div[@id='adult1Room1']//input[@placeholder='First Name']:=XPATH
+E_SecondName=//div[@id='adult1Room1']//div[@class='col3']//input:=XPATH
+E_Day1=//select[@id='adult1Room11DOBday']:=XPATH
+E_Day=//select[@id='adult1Room11DOBday']//option[@value='21'][contains(text(),'21')]:=XPATH
+E_Month1=//select[@id='adult1Room1DOBmonth']:=XPATH
+E_Month=//select[@id='adult1Room1DOBmonth']//option[@value='01'][contains(text(),'Jan')]:=XPATH
+E_Year1=//select[@id='adult1Room1DOByear']:=XPATH
+E_Year=//select[@id='adult1Room1DOByear']//option[@value='1997'][contains(text(),'1997')]:=XPATH
+
+#Room2 Object Property 
+E_Title21=//select[@name='adult2Room1Title']:=XPATH
+E_Title2=//select[@name='adult2Room1Title']//option[@value='Mrs'][contains(text(),'Mrs')]:=XPATH
+E_FirstName2=//div[@id='adult2Room1']//input[@placeholder='First Name']:=XPATH
+E_SecondName2=//div[@id='adult2Room1']//div[@class='col3']//input:=XPATH
+E_Day21=//select[@id='adult2Room12DOBday']:=XPATH
+E_Day2=//select[@id='adult2Room12DOBday']//option[@value='07'][contains(text(),'07')]:=XPATH
+E_Month21=//select[@id='adult2Room1DOBmonth']:=XPATH
+E_Month2=//select[@id='adult2Room1DOBmonth']//option[@value='11'][contains(text(),'Nov')]:=XPATH
+E_Year21=//select[@id='adult2Room1DOByear']:=XPATH
+E_Year2=//select[@id='adult2Room1DOByear']//option[@value='1998'][contains(text(),'1998')]:=XPATH
+E_MobileNo=//input[@id='contactMobile']:=XPATH
+E_Email=//input[@id='contactEmail']:=XPATH
+E_Checkbox=//label[@id='read_terms_label']:=XPATH
+E_MakePayment=//button[@id='makePayCTA']:=XPATH
+E_ProceedPayment=//*[@id="confirmProceedPayBtn"]:=XPATH
